@@ -1,0 +1,554 @@
+
+
+
+.poligon1 {
+    position: absolute;
+    width: 320px;
+    height: 184.66px;
+    background-color: transparent;
+    margin: 92.83px 0;
+    position: absolute;
+    margin-top: 197px;
+    transform: 45deg;
+    transform: rotateZ(42deg);
+    border-left: solid 9px rgb(255, 0, 0);
+    border-right: solid 9px rgb(255, 0, 0);
+}
+
+
+.poligon1:before,
+.poligon1:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 226.99px;
+    height: 226.99px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: transparent;
+    left: 37.0051px;
+
+}
+
+.poligon1:before {
+    top: -113.13px;
+    border-top: solid 12.7279px rgb(255, 0, 0);
+    border-right: solid 12.7279px rgb(255, 0, 0);
+}
+
+.poligon1:after {
+    bottom: -113.13px;
+    border-bottom: solid 12.7279px rgb(255, 0, 0);
+    border-left: solid 12.7279px rgb(255, 0, 0);
+}
+
+
+
+
+.poligon2 {
+    position: absolute;
+    width: 409px;
+    height: 225.66px;
+    background-color: transparent;
+    margin: 118.83px 0;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: -24px;
+    transform: 45deg;
+    transform: rotateZ(42deg);
+    border-left: solid 2px rgb(255, 0, 0);
+    border-right: solid 2px rgb(255, 0, 0);
+}
+
+.poligon2:before,
+.poligon2:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 289.99px;
+    height: 289.99px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: transparent;
+    left: 58.0051px;
+
+}
+
+.poligon2:before {
+    top: -144.13px;
+    border-top: solid 2.7279px rgb(255, 0, 0);
+    border-right: solid 2.7279px rgb(255, 0, 0);
+}
+
+.poligon2:after {
+    bottom: -144.13px;
+    border-bottom: solid 2.7279px rgb(255, 0, 0);
+    border-left: solid 2.7279px rgb(255, 0, 0);
+}
+
+
+
+
+
+.poligon3 {
+    position: absolute;
+    width: 310px;
+    height: 178.66px;
+    background-color: transparent;
+    margin: 89.83px 0;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 304px;
+    transform: 45deg;
+    transform: rotateZ(42deg);
+    border-left: solid 2px rgb(255, 0, 0);
+    border-right: solid 2px rgb(255, 0, 0);
+}
+
+.poligon3:before,
+.poligon3:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 219.99px;
+    height: 219.99px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: transparent;
+    left: 43.0051px;
+
+}
+
+.poligon3:before {
+    top: -109.13px;
+    border-top: solid 2.7279px rgb(255, 0, 0);
+    border-right: solid 2.7279px rgb(255, 0, 0);
+}
+
+.poligon3:after {
+    bottom: -109.13px;
+    border-bottom: solid 2.7279px rgb(255, 0, 0);
+    border-left: solid 2.7279px rgb(255, 0, 0);
+}
+
+
+
+
+.poligon4 {
+    position: absolute;
+    width: 249px;
+    height: 144.66px;
+    background-color: transparent;
+    margin: 72.83px 0;
+    position: absolute;
+    margin-top: 462px;
+    margin-left: 328px;
+    transform: 45deg;
+    transform: rotateZ(42deg);
+    border-left: solid 9px rgb(255, 0, 0);
+    border-right: solid 9px rgb(255, 0, 0);
+}
+
+.poligon4:before,
+.poligon4:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 176.99px;
+    height: 176.99px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: transparent;
+    left: 27.0051px;
+
+}
+
+.poligon4:before {
+    top: -88.13px;
+    border-top: solid 12.7279px rgb(255, 0, 0);
+    border-right: solid 12.7279px rgb(255, 0, 0);
+}
+
+.poligon4:after {
+    bottom: -88.13px;
+    border-bottom: solid 12.7279px rgb(255, 0, 0);
+    border-left: solid 12.7279px rgb(255, 0, 0);
+}
+
+
+.poligonram {
+    
+    width: 1162px;
+    height: 761px;
+    background-color: transparent;
+    position: absolute;
+    border: solid 9px rgb(255, 0, 0);
+    margin-top: -14px;
+    border-radius: 15px;
+   opacity: 0.5;
+}
+
+/* section 2*/
+
+.poligonY1 {
+    position: absolute;
+    width: 88px;
+    height: 50.66px;
+    background-color: transparent;
+    margin: 25.83px 0;
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 32px;
+    transform: 45deg;
+    transform: rotateZ(42deg);
+    border-left: solid 2px rgb(255, 0, 0);
+    border-right: solid 2px rgb(255, 0, 0);
+}
+
+.poligonY1:before,
+.poligonY1:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 62.99px;
+    height: 62.99px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: transparent;
+    left: 10.0051px;
+
+}
+
+.poligonY1:before {
+    top: -31.13px;
+    border-top: solid 2.7279px rgb(255, 0, 0);
+    border-right: solid 2.7279px rgb(255, 0, 0);
+}
+
+.poligonY1:after {
+    bottom: -31.13px;
+    border-bottom: solid 2.7279px rgb(255, 0, 0);
+    border-left: solid 2.7279px rgb(255, 0, 0);
+}
+
+
+
+.poligonY2 {
+    position: absolute;
+    width: 66px;
+    height: 38.66px;
+    background-color: transparent;
+    margin: 19.83px 0;
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 31px;
+    transform: 45deg;
+    transform: rotateZ(42deg);
+    border-left: solid 2px rgb(255, 0, 0);
+    border-right: solid 2px rgb(255, 0, 0);
+}
+
+.poligonY2:before,
+.poligonY2:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 46.99px;
+    height: 46.99px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: transparent;
+    left: 7.0051px;
+
+}
+
+.poligonY2:before {
+    top: -23.13px;
+    border-top: solid 2.7279px rgb(255, 0, 0);
+    border-right: solid 2.7279px rgb(255, 0, 0);
+}
+
+.poligonY2:after {
+    bottom: -23.13px;
+    border-bottom: solid 2.7279px rgb(255, 0, 0);
+    border-left: solid 2.7279px rgb(255, 0, 0);
+}
+
+
+
+.poligonY3 {
+    position: absolute;
+    width: 42px;
+    height: 24.66px;
+    background-color: transparent;
+    margin: 12.83px 0;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 87px;
+    transform: 45deg;
+    transform: rotateZ(42deg);
+    border-left: solid 2px rgb(255, 0, 0);
+    border-right: solid 2px rgb(255, 0, 0);
+}
+
+.poligonY3:before,
+.poligonY3:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 29.99px;
+    height: 29.99px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: transparent;
+    left: 5.0051px;
+
+}
+
+.poligonY3:before {
+    top: -14.13px;
+    border-top: solid 2.7279px rgb(255, 0, 0);
+    border-right: solid 2.7279px rgb(255, 0, 0);
+}
+
+.poligonY3:after {
+    bottom: -14.13px;
+    border-bottom: solid 2.7279px rgb(255, 0, 0);
+    border-left: solid 2.7279px rgb(255, 0, 0);
+}
+
+
+
+
+
+.poligonY4 {
+    position: absolute;
+    width: 88px;
+    height: 50.66px;
+    background-color: transparent;
+    margin: 25.83px 0;
+    position: absolute;
+    margin-top: -307px;
+    margin-left: 105px;
+    transform: 45deg;
+    transform: rotateZ(42deg);
+    border-left: solid 2px rgb(255, 0, 0);
+    border-right: solid 2px rgb(255, 0, 0);
+}
+
+.poligonY4:before,
+.poligonY4:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 62.99px;
+    height: 62.99px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: transparent;
+    left: 10.0051px;
+
+}
+
+.poligonY4:before {
+    top: -31.13px;
+    border-top: solid 2.7279px rgb(255, 0, 0);
+    border-right: solid 2.7279px rgb(255, 0, 0);
+}
+
+.poligonY4:after {
+    bottom: -31.13px;
+    border-bottom: solid 2.7279px rgb(255, 0, 0);
+    border-left: solid 2.7279px rgb(255, 0, 0);
+}
+
+
+
+
+.poligonY5 {
+    position: absolute;
+    width: 140px;
+    height: 80.66px;
+    background-color: transparent;
+    margin: 40.83px 0;
+    position: absolute;
+    margin-top: -459px;
+    margin-left: 113px;
+    transform: 45deg;
+    transform: rotateZ(42deg);
+    border-left: solid 2px rgb(255, 0, 0);
+    border-right: solid 2px rgb(255, 0, 0);
+}
+
+.poligonY5:before,
+.poligonY5:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 98.99px;
+    height: 98.99px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: transparent;
+    left: 18.0051px;
+
+}
+
+.poligonY5:before {
+    top: -49.13px;
+    border-top: solid 2.7279px rgb(255, 0, 0);
+    border-right: solid 2.7279px rgb(255, 0, 0);
+}
+
+.poligonY5:after {
+    bottom: -49.13px;
+    border-bottom: solid 2.7279px rgb(255, 0, 0);
+    border-left: solid 2.7279px rgb(255, 0, 0);
+}
+
+
+
+
+.poligonY6 {
+    position: absolute;
+    width: 178px;
+    height: 102.66px;
+    background-color: transparent;
+    margin: 51.83px 0;
+    position: absolute;
+    margin-top: -341px;
+    margin-right: 113px;
+    transform: 45deg;
+    right:0px;
+    transform: rotateZ(13deg);
+    border-left: solid 2px rgb(255, 0, 0);
+    border-right: solid 2px rgb(255, 0, 0);
+}
+
+.poligonY6:before,
+.poligonY6:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 125.99px;
+    height: 125.99px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: transparent;
+    left: 24.0051px;
+
+}
+
+.poligonY6:before {
+    top: -62.13px;
+    border-top: solid 2.7279px rgb(255, 0, 0);
+    border-right: solid 2.7279px rgb(255, 0, 0);
+}
+
+.poligonY6:after {
+    bottom: -62.13px;
+    border-bottom: solid 2.7279px rgb(255, 0, 0);
+    border-left: solid 2.7279px rgb(255, 0, 0);
+}
+
+
+
+
+.poligonY7 {
+    position: absolute;
+    width: 88px;
+    height: 50.66px;
+    background-color: transparent;
+    margin: 25.83px 0;
+    position: absolute;
+    margin-top: -437px;
+    margin-right: 83px;
+    transform: 45deg;
+    right:0px;
+    transform: rotateZ(13deg);
+    border-left: solid 2px rgb(255, 0, 0);
+    border-right: solid 2px rgb(255, 0, 0);
+}
+
+.poligonY7:before,
+.poligonY7:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 62.99px;
+    height: 62.99px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: transparent;
+    left: 11.0051px;
+
+}
+
+.poligonY7:before {
+    top: -31.13px;
+    border-top: solid 2.7279px rgb(255, 0, 0);
+    border-right: solid 2.7279px rgb(255, 0, 0);
+}
+
+.poligonY7:after {
+    bottom: -31.13px;
+    border-bottom: solid 2.7279px rgb(255, 0, 0);
+    border-left: solid 2.7279px rgb(255, 0, 0);
+}
+
+
+
+
+.poligonY8 {
+    position: absolute;
+    width: 66px;
+    height: 38.66px;
+    background-color: transparent;
+    margin: 19.83px 0;
+    position: absolute;
+    margin-top: -512px;
+    margin-right: 125px;
+    transform: 45deg;
+    right:0px;
+    transform: rotateZ(13deg);
+    border-left: solid 2px rgb(255, 0, 0);
+    border-right: solid 2px rgb(255, 0, 0);
+}
+
+.poligonY8:before,
+.poligonY8:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 46.99px;
+    height: 46.99px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: transparent;
+    left: 8.0051px;
+
+}
+
+.poligonY8:before {
+    top: -23.13px;
+    border-top: solid 2.7279px rgb(255, 0, 0);
+    border-right: solid 2.7279px rgb(255, 0, 0);
+}
+
+.poligonY8:after {
+    bottom: -23.13px;
+    border-bottom: solid 2.7279px rgb(255, 0, 0);
+    border-left: solid 2.7279px rgb(255, 0, 0);
+}

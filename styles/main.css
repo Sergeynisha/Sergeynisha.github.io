@@ -1,0 +1,318 @@
+.bg-black {
+  background: #1f1f1f; }
+
+a {
+  text-decoration: none !important; }
+
+body {
+  overflow-x: hidden; }
+
+.br-up {
+  border-radius: 15px 15px 0 0; }
+
+.br-down {
+  border-radius: 0 0 15px 15px; }
+
+.section_nishe {
+  height: 125vh;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("images/jpg1.jpg");
+  border-radius: 0 0 39rem 39rem/6rem;
+  overflow: hidden; }
+
+.section_nishe::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0 0 39rem 39rem/6rem; }
+
+.nishe {
+  min-height: 100vh; }
+  .nishe .text-one {
+    margin-top: 98px;
+    margin-left: -1px;
+    font-size: 20px;
+    letter-spacing: -1px;
+    color: red;
+    font-family: "Montserrat"; }
+  .nishe .btn-video {
+    margin-top: 250px;
+    width: 29%;
+    height: 41px;
+    margin-left: 486px;
+    border-radius: 40px;
+    font-family: "Montserrat";
+    font-family: "Montserrat";
+    color: white;
+    background: linear-gradient(180deg, red 0.14%, #c80000 99.29%), #FFD90F;
+    box-shadow: 2px 3.464px 0px 0px #810000;
+    z-index: 20;
+    position: absolute; }
+    .nishe .btn-video:hover {
+      box-shadow: 2px 3.464px 30px 0px #810000; }
+    .nishe .btn-video button {
+      font-size: 12px;
+      border: none; }
+      .nishe .btn-video button:focus {
+        box-shadow: none; }
+    .nishe .btn-video i {
+      font-size: 26px; }
+  .nishe .text-two {
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: white;
+    line-height: 1.429;
+    padding-top: 31px;
+    margin-left: -4px; }
+  .nishe h1 {
+    font-size: 142px;
+    font-family: "Oswald";
+    background: linear-gradient(45deg, white 30%, white 55%, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: table;
+    line-height: 0.556;
+    padding-top: 3px;
+    margin-left: -9px; }
+  .nishe form {
+    border-radius: 15px;
+    background-color: #313131;
+    position: absolute;
+    margin-top: 22px;
+    max-width: 354px;
+    height: 296px; }
+    .nishe form .input-group {
+      padding-top: 22px;
+      width: 85%;
+      margin: auto; }
+    .nishe form .input-group-text {
+      background-color: #0a0a0a;
+      border: none;
+      color: red;
+      font-size: 10px; }
+    .nishe form button {
+      margin-top: 24px;
+      width: 86%;
+      height: 52px;
+      border-radius: 40px;
+      font-size: 15px;
+      font-family: "Montserrat";
+      font-family: "Montserrat";
+      color: white;
+      background: linear-gradient(180deg, red 0.14%, #c80000 99.29%), #FFD90F;
+      box-shadow: 2px 3.464px 0px 0px #810000; }
+      .nishe form button:hover {
+        box-shadow: 2px 3.464px 30px 0px #810000; }
+    .nishe form .form-control {
+      background-color: #0a0a0a;
+      border: none !important; }
+      .nishe form .form-control::placeholder {
+        color: white;
+        font-size: 13px; }
+      .nishe form .form-control:focus {
+        box-shadow: none; }
+    .nishe form small {
+      color: #b5b8c1;
+      font-size: 11px; }
+  .nishe img {
+    max-height: 1249px;
+    margin-left: -7px;
+    width: 622px;
+    position: relative;
+    z-index: 10;
+    padding-top: 9px; }
+
+.section_yotube {
+  position: relative;
+  z-index: 50;
+  margin-top: -142px; }
+  .section_yotube h2 {
+    text-align: center;
+    margin: auto;
+    padding-top: 27px;
+    font-size: 31px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    width: 60%;
+    padding-bottom: 32px; }
+  .section_yotube p {
+    padding-top: 27px;
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: bold; }
+  .section_yotube iframe {
+    border-radius: 15px;
+    z-index: 50;
+    position: relative; }
+  .section_yotube i {
+    padding-bottom: 20px; }
+
+.poligon1,
+.poligon2 {
+  animation-name: animPav;
+  animation-duration: 560s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  position: absolute; }
+
+@keyframes animPav {
+  0% {
+    transform: rotateZ(42deg); }
+  100% {
+    transform: rotateZ(2800deg); } }
+.poligonY1,
+.poligonY6,
+.poligonY2,
+.poligonY3,
+.poligonY4,
+.poligonY5,
+.poligonY7,
+.poligonY8 {
+  animation-name: animY;
+  animation-duration: 560s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  position: absolute; }
+
+@keyframes animY {
+  0% {
+    transform: rotateZ(42deg); }
+  100% {
+    transform: rotateZ(2800deg); } }
+@media screen and (max-width: 650px) {
+  .nishe .text-one {
+    margin-top: 42px;
+    margin-left: 10px;
+    font-size: 15px;
+    letter-spacing: 0px; }
+
+  .section_nishe h1 {
+    font-size: 107px;
+    margin-top: -6px;
+    margin-left: 10px; }
+
+  .nishe img {
+    max-height: 1074px;
+    margin-left: 134px;
+    width: 408px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -300px; }
+
+  .nishe .text-two {
+    font-size: 17px;
+    padding-top: 138px;
+    margin-left: 15px;
+    z-index: 40;
+    position: relative; }
+
+  .nishe form {
+    margin-top: -3px;
+    max-width: 354px;
+    height: 296px;
+    margin-left: 15px;
+    z-index: 100; }
+
+  .section_nishe {
+    height: 100vh !important;
+    border-radius: 0 0 0 0; }
+    .section_nishe:before {
+      border-radius: 0 0 0 0; }
+
+  .section_yotube {
+    z-index: 50;
+    margin-top: -49px; }
+
+  .section_yotube h2 {
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    width: 86%;
+    padding-bottom: 12px; }
+
+  iframe {
+    width: 348px;
+    height: 196px; }
+
+  .section_yotube p {
+    padding-top: 2px;
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: bold;
+    margin: 0px; }
+
+  .section_yotube i {
+    padding-bottom: 7px;
+    font-size: 10px; }
+
+  .poligonY1,
+  .poligonY6,
+  .poligonY2,
+  .poligonY3,
+  .poligonY4,
+  .poligonY5,
+  .poligonY7,
+  .poligonY8,
+  .poligon2,
+  .poligon1 {
+    display: none; }
+
+  .poligon3 {
+    margin-top: -118px !important;
+    margin-left: 96px !important; }
+
+  .poligon4 {
+    margin-top: -105px !important;
+    margin-left: 113px !important; }
+
+  .poligonram {
+    width: 383px !important;
+    height: 313px !important;
+    background-color: transparent;
+    position: absolute;
+    border: solid 4px red !important;
+    margin-top: -5px !important;
+    margin-left: 0px !important;
+    border-radius: 15px !important;
+    opacity: 0.5; } }
+@media screen and (max-width: 380px) {
+  iframe {
+    width: 308px !important;
+    height: 192px !important; }
+
+  .section_yotube h2 {
+    width: 100%; }
+
+  .section_yotube p {
+    font-size: 11px; }
+
+  .section_yotube {
+    margin-top: -50px; }
+
+  .section_nishe {
+    height: 90vh !important;
+    border-radius: 0 0 0 0; }
+
+  .poligonram {
+    width: 354px !important;
+    height: 310px !important; }
+
+  .nishe form {
+    margin-left: 10px; } }
+@media screen and (max-height: 668px) {
+  .section_nishe {
+    height: 110vh !important; } }
+
+/*# sourceMappingURL=main.css.map */
