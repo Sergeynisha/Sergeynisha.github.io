@@ -382,10 +382,7 @@ body {
         padding-bottom: 12px;
     }
 
-    iframe {
-        width: 348px;
-        height: 196px;
-    }
+  
 
     .section_yotube p {
         padding-top: 2px;
@@ -425,8 +422,8 @@ body {
     }
 
     .poligonram {
-        width: 383px !important;
-        height: 313px !important;
+        width: 414px !important;
+        height: 308px !important;
         background-color: transparent;
         position: absolute;
         border: solid 4px rgb(255, 0, 0) !important;
@@ -435,14 +432,26 @@ body {
         border-radius: 15px !important;
         opacity: 0.5;
     }
+    .col-11{
+        flex: 0 0 98%!important;
+        max-width: 98%!important;
+    }
+    iframe {
+        width: 375px !important;
+        height: 192px !important;
+    }
 
 }
 
 
 @media screen and (max-width: 380px) {
     iframe {
-        width: 308px !important;
+        width: 340px !important;
         height: 192px !important;
+    }
+    .col-11{
+        flex: 0 0 98%!important;
+        max-width: 98%!important;
     }
 
     .section_yotube h2 {
@@ -467,8 +476,8 @@ body {
     }
 
     .poligonram {
-        width: 354px !important;
-        height: 310px !important;
+        width: 375px !important;
+        height: 308px !important;
     }
 
     .nishe form {
@@ -482,5 +491,17 @@ body {
     .section_nishe {
         height: 110vh !important;
 
+    }
+    .col-11{
+        flex: 0 0 98%!important;
+        max-width: 98%!important;
+    }
+    iframe {
+        width: 308px !important;
+        height: 192px !important;
+    }
+     iframe {
+        width: 340px !important;
+        height: 192px !important;
     }
 }
