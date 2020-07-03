@@ -202,15 +202,15 @@ body {
     transform: rotateZ(2800deg); } }
 @media screen and (max-width: 650px) {
   .nishe .text-one {
-    margin-top: 42px;
-    margin-left: 10px;
+    margin-top: 44px;
+    margin-left: 16px;
     font-size: 15px;
     letter-spacing: 0px; }
 
   .section_nishe h1 {
     font-size: 107px;
-    margin-top: -6px;
-    margin-left: 10px; }
+    margin-top: -16px;
+    margin-left: 13px; }
 
   .nishe img {
     max-height: 1074px;
@@ -218,11 +218,11 @@ body {
     width: 408px;
     position: absolute;
     z-index: 1;
-    margin-top: -300px; }
+    margin-top: -309px; }
 
   .nishe .text-two {
     font-size: 17px;
-    padding-top: 138px;
+    padding-top: 137px;
     margin-left: 15px;
     z-index: 40;
     position: relative; }
@@ -331,7 +331,9 @@ body {
     height: 308px !important; }
 
   .nishe form {
-    margin-left: 10px; } }
+    margin-left: 18px; }
+    .nishe form button {
+      margin-top: 18px; } }
 @media screen and (max-height: 668px) {
   .section_nishe {
     height: 122vh !important; }
